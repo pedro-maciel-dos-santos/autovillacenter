@@ -64,6 +64,7 @@ footer > ul{
     background-color: var(--cor4);
     columns: 2;
     padding: 10px;
+    list-style-position: inside;
 }
 h3{
     background-color: var(--cor3);
