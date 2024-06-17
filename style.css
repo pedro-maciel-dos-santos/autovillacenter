@@ -18,7 +18,7 @@
 }
 body{
     margin: 0px;
-    background-color:var(--cor8);
+    background-color:var(--cor4);
     color: white;
     font-family: var(--font-villa);
 
@@ -72,10 +72,17 @@ h3{
     padding: 15px;
     color: var(--cor9);
     text-align: center;
-    text-decoration: underline;
 }
 li{
     padding: 2px;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+a:hover{
+    color: var(--cor9);
+    transition: 0.3;
 }
 p{
     background-color: var(--cor4);
