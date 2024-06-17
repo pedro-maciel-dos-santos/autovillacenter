@@ -60,11 +60,13 @@ main > ul{
     
 }
 footer > ul{
+   
     margin: 0px;
     background-color: var(--cor4);
     columns: 2;
-    padding: 10px;
+    padding-left: 20px;
     list-style-position: inside;
+    border-left: 10px solid var(--cor4);
 }
 h3{
     background-color: var(--cor3);
@@ -75,6 +77,12 @@ h3{
 }
 li{
     padding: 2px;
+}
+.dds{
+    list-style-type: '\1F550\00A0\00A0';
+}
+.fds{
+    list-style-type: '\1F4C5\00A0\00A0';
 }
 a{
     color: white;
